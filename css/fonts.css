@@ -1,0 +1,96 @@
+/*
+** File Name:	fonts.css
+** Author:	Aditya Ramesh
+** Date:	08/04/2013
+** Contact:	_@adityaramesh.com
+*/
+
+@font-face
+{
+	font-family: "Corbert";
+	font-weight: normal;
+	font-style: normal;
+	src: url("../fonts/corbert/corbert_regular.otf");
+}
+
+@font-face
+{
+	font-family: "Corbert";
+	font-weight: normal;
+	font-style: italic;
+	src: url("../fonts/corbert/corbert_italic.otf");
+}
+
+/*
+@font-face
+{
+	font-family: "Raleway";
+	font-weight: 100;
+	font-style: normal;
+	src: url("../font/raleway/raleway_thin_webfont.ttf");
+}
+
+@font-face
+{
+	font-family: "Raleway";
+	font-weight: 200;
+	font-style: normal;
+	src: url("../font/raleway/raleway_extra_light_webfont.ttf");
+}
+
+@font-face
+{
+	font-family: "Raleway";
+	font-weight: 300;
+	font-style: normal;
+	src: url("../font/raleway/raleway_light_webfont.ttf");
+}
+
+@font-face
+{
+	font-family: "Raleway";
+	font-weight: 400;
+	font-style: normal;
+	src: url("../font/raleway/raleway_regular_webfont.ttf");
+}
+
+@font-face
+{
+	font-family: "Raleway";
+	font-weight: 500;
+	font-style: normal;
+	src: url("../font/raleway/raleway_medium_webfont.ttf");
+}
+
+@font-face
+{
+	font-family: "Raleway";
+	font-weight: 600;
+	font-style: normal;
+	src: url("../font/raleway/raleway_semibold_webfont.ttf");
+}
+
+@font-face
+{
+	font-family: "Raleway";
+	font-weight: 700;
+	font-style: normal;
+	src: url("../font/raleway/raleway_bold_webfont.ttf");
+}
+
+@font-face
+{
+	font-family: "Raleway";
+	font-weight: 800;
+	font-style: normal;
+	src: url("../font/raleway/raleway_extra_bold_webfont.ttf");
+}
+
+@font-face
+{
+	font-family: "Raleway";
+	font-weight: 900;
+	font-style: normal;
+	src: url("../font/raleway/raleway_heavy_webfont.ttf");
+}
+*/

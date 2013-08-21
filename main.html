@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+	<title>VTrack</title>
+</head>
+<body>
+	<h1>VTrack</h1>
+	<div id="container">
+		<div id="scrollbox">
+			<div id="panel">
+				<div id="selection">
+					<table>
+						<tr>
+							<td>Version</td>
+							<td>
+								<select id="version">
+									<option value="1">1</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Camera</td>
+							<td>
+								<select id="camera">
+									<option value="19">19</option>
+									<option value="36">36</option>
+									<option value="57">57</option>
+									<option value="114">114</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Time</td>
+							<td>
+								<select id="time">
+									<option value="day">Day</option>
+									<option value="night">Night</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+					<button type="button" id="go">Go</button>
+				</div>
+				<div id="player">
+					<button type="button" id="back">Back</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
