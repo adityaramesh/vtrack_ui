@@ -10,9 +10,9 @@ $(function() {
 	$("#player").css("position", "relative");
 
 	$("#go").click(function() {
-		var v = $("#version :selected").text();
+		// var v = $("#version :selected").text();
 		var c = $("#camera :selected").text();
-		var t = $("#time :selected").text();
+		// var t = $("#time :selected").text();
 		var r = window.devicePixelRatio;
 
 		var path = "";
