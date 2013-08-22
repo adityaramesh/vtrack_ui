@@ -18,39 +18,8 @@ h1
 	text-transform: uppercase;
 	font-size: 5em;
 	text-align: center;
-	margin-bottom: 0.3em;
-}
-
-table
-{
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 0.7em;
-	font-size: 1.5em;
-}
-
-button
-{
-	display: block;
-	font-size: 1em;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-select
-{
-	font-size: 1.5em;
-}
-
-#selection table td:first-child
-{
-	padding-right: 1em;
-	vertical-align: middle;
-}
-
-#selection table td:nth-child(2)
-{
-	vertical-align: text-top;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
 }
 
 #container
@@ -63,7 +32,7 @@ select
 #scrollbox
 {
 	display: block;
-	/*overflow-x: auto;*/
+	/* overflow-x: auto; */
 	overflow-x: hidden;
 	overflow-y: hidden;
 }
@@ -90,11 +59,109 @@ select
 	width: 800px;
 }
 
-video
+#container table
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.4em;
+	font-size: 1.5em;
+}
+
+#selection table td:first-child
+{
+	padding-right: 1em;
+	vertical-align: middle;
+}
+
+#selection table td:nth-child(2)
+{
+	vertical-align: text-top;
+}
+
+#container button
 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 1em;
+}
+
+#container video
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.7em;
 	padding: 0;
+}
+
+/*
+** iPhone (both portrait and landscape orientations).
+*/
+
+@media only screen and
+(min-device-width: 320px) and
+(max-device-width: 568px)
+{
+	h1
+	{
+		margin-top: 0.1em;
+		margin-bottom: 0.1em;
+		font-size: 4em;
+	}
+
+	#container
+	{
+		width: 320px;
+	}
+
+	#panel
+	{
+		width: 640px;
+	}
+
+	#selection
+	{
+		width: 320px;
+	}
+
+	#player
+	{
+		width: 320px;
+	}
+}
+
+/*
+** iPad and iPad Mini (both portrait and landscape orientations).
+*/
+
+@media only screen and
+(min-device-width: 768px) and
+(max-device-width: 1024px)
+{
+	h1
+	{
+		margin-top: 0.1em;
+		margin-bottom: 0.1em;
+		font-size: 5em;
+	}
+
+	#container
+	{
+		width: 768px;
+	}
+
+	#panel
+	{
+		width: 1536px;
+	}
+
+	#selection
+	{
+		width: 768px;
+	}
+
+	#player
+	{
+		width: 768px;
+	}
 }
